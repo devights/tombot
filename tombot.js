@@ -32,13 +32,11 @@ function play_test() {
 
 function init_images() {
     $("audio").on("ended", function() {
-        $("#tombot").removeClass("talking");
-        $("#tombot").addClass("silent");
+        $("#tombot").attr('src', 'silent.jpg');
     });
 
     $("audio").on("play", function() {
-        $("#tombot").removeClass("silent");
-        $("#tombot").addClass("talking");
+        $("#tombot").attr('src', 'talking.gif');
     });
 
 }
