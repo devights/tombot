@@ -1,0 +1,20 @@
+#tombot
+{
+    width: 345px;
+    height:427px;
+}
+
+.silent
+{
+    background-image: url(silent.jpg) no-repeat;
+}
+
+.talking
+{
+    background-image: url(talking.gif) no-repeat;
+}
+
+#preload
+{
+    background-image: url(talking.gif) no-repeat -9999px -9999px;;
+}
